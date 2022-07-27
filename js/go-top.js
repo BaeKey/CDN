@@ -13,7 +13,7 @@ var scrolltotop = {
   controlHTML:
     '<img src="https://fastly.jsdelivr.net/gh/BaeKey/CDN@master/image/go-top.svg" />', //HTML for control, which is auto wrapped in DIV w/ ID="topcontrol"
 
-  controlattrs: { offsetx: 65, offsety: 60 }, //offset of control relative to right/ bottom of window corner
+  controlattrs: { offsetx: 60, offsety: 60 }, //offset of control relative to right/ bottom of window corner
 
   anchorkeyword: 'javascript:scroll(0,0)', //Enter href value of HTML anchors on the page that should also act as "Scroll Up" links
 
